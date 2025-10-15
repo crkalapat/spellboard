@@ -2,9 +2,7 @@
 
 _A large key cap custom keyboard, designed for typing to communicate._
 
-<p align="center">
-    <img src="/assets/IMG_1373.png" width="300">
-</p>
+<img src="/assets/IMG_1373.png" width="300">
 
 ## Features
 
