@@ -11,3 +11,13 @@ _A large key cap custom keyboard, designed for typing to communicate._
 - Capitalize, Backspace, Enter, Space keys
 - USB C connectivity
 - Custom large keycaps for less reliance on fine motor skills
+
+## BOM
+
+- 30x 2-Pin key switches
+- 30x SOD-123 diodes
+- Seeed Studio XIAO RP2040
+- 1x PCB
+- 1x 3D Printed Enclosure Left
+- 1x 3D Printed Enclosure Right
+- 1x Backplate
