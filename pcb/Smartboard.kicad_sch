@@ -1,0 +1,7162 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5ced50cf-3f1c-47d8-9fd6-e21d889a32f3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CherryMX:CherryMX"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CherryMX"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CherryMX_1_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Seeed Studio nRF52840:XIAO-RP2040-SMD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -21.082 22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XIAO-RP2040-SMD"
+				(at -12.192 -35.306 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MCU_SEEED_XIAO_Series:XIAO-RP2040-SMD"
+				(at -0.508 -37.846 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XIAO-RP2040-SMD_1_1"
+				(rectangle
+					(start -21.59 20.32)
+					(end 21.59 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -7.62 24.13)
+					(mid -8.518 23.758)
+					(end -8.89 22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 22.86) (xy -8.89 20.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 24.13) (xy 7.62 24.13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 22.86) (xy 8.89 20.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 24.13)
+					(mid 7.62 24.13)
+					(end 7.62 24.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 22.86)
+					(mid 8.518 23.758)
+					(end 7.62 24.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 22.86)
+					(mid 8.89 22.86)
+					(end 8.89 22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -21.59 11.43 0)
+					(length 2.54)
+					(name "PA02_A0_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -3.81 180)
+					(length 2.54)
+					(name "PA5_A9_D9_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 0 180)
+					(length 2.54)
+					(name "PA6_A10_D10_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 3.81 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 11.43 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -29.21 90)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -29.21 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -29.21 90)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -29.21 90)
+					(length 2.54)
+					(name "SWDCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -29.21 90)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 7.62 0)
+					(length 2.54)
+					(name "PA4_A1_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -29.21 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 3.81 0)
+					(length 2.54)
+					(name "PA10_A2_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 0 0)
+					(length 2.54)
+					(name "PA11_A3_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -3.81 0)
+					(length 2.54)
+					(name "PA8_A4_D4_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -7.62 0)
+					(length 2.54)
+					(name "PA9_A5_D5_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -11.43 0)
+					(length 2.54)
+					(name "PB08_A6_D6_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -11.43 180)
+					(length 2.54)
+					(name "PB09_A7_D7_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -7.62 180)
+					(length 2.54)
+					(name "PA7_A8_D8_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 160.02 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0661fc5f-9baa-417e-8225-9dcaa5843d89")
+	)
+	(junction
+		(at 201.93 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eae936a-f4ff-4e36-8c59-e5b49d8ab72a")
+	)
+	(junction
+		(at 207.01 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1061e5ce-6c50-4dd9-be0c-bd674de6bac7")
+	)
+	(junction
+		(at 160.02 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118ae8fe-a750-4efd-906f-bd9bf7acee17")
+	)
+	(junction
+		(at 186.69 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11e33e02-b31f-424a-b084-21a3e6966d2f")
+	)
+	(junction
+		(at 191.77 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1986a1b9-f383-49d2-ba41-ec994dd38797")
+	)
+	(junction
+		(at 232.41 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23cc180b-1df6-4b2d-bdaa-716bfe9573a7")
+	)
+	(junction
+		(at 176.53 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25f8b874-ba36-42ac-84d9-1499dc49fd3a")
+	)
+	(junction
+		(at 191.77 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a1852f-eaa3-470e-bf20-0f301a2dc2e2")
+	)
+	(junction
+		(at 232.41 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ee0e130-6d28-4a64-88f3-2add164fa99b")
+	)
+	(junction
+		(at 247.65 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a14108-2698-4433-b27a-97c70de1da22")
+	)
+	(junction
+		(at 160.02 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fbc0594-e6cc-4e67-a06a-9a9a55625ce2")
+	)
+	(junction
+		(at 232.41 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e90cf7-8097-4514-91af-02cfac32a73f")
+	)
+	(junction
+		(at 222.25 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55c6e476-eb9a-4858-a51c-65c975fd13a8")
+	)
+	(junction
+		(at 170.18 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58c28e7b-c737-4b74-8ce7-f970623792f3")
+	)
+	(junction
+		(at 201.93 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631b9a8f-2657-43b2-bb66-f8ba5020dcd4")
+	)
+	(junction
+		(at 170.18 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "642a7838-4fd9-4511-8247-2b00d76758a6")
+	)
+	(junction
+		(at 176.53 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67de6f55-1b52-4473-ac46-3438952dfa02")
+	)
+	(junction
+		(at 186.69 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c34de38-4055-4959-85aa-346b48728036")
+	)
+	(junction
+		(at 176.53 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cab247e-ce5f-4bb6-9771-39a354f3d7ed")
+	)
+	(junction
+		(at 222.25 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eb7d81a-c8d7-4831-8195-09ffcf8b0a9a")
+	)
+	(junction
+		(at 217.17 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84e0df26-ee2c-4b8b-a4c2-a6a7e7b9ce01")
+	)
+	(junction
+		(at 186.69 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "889389d2-aac6-4ded-b4b2-7ef9d215406a")
+	)
+	(junction
+		(at 217.17 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b18f9c2-ad35-434c-b5ef-b70e599bfde3")
+	)
+	(junction
+		(at 186.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9403acf8-1996-4601-b0a0-e885c1a334f9")
+	)
+	(junction
+		(at 170.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "946a434e-0417-4c17-a547-11ffbc9711ba")
+	)
+	(junction
+		(at 207.01 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef38f64-7fbf-4149-8b4b-418bb1d80838")
+	)
+	(junction
+		(at 170.18 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a096a8db-71e4-44bb-b184-4fd9b2476428")
+	)
+	(junction
+		(at 207.01 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0c30361-cd12-4fe5-8247-6afab1752f8b")
+	)
+	(junction
+		(at 222.25 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0c744e5-9896-4bb0-8711-1c12ba2e73ff")
+	)
+	(junction
+		(at 222.25 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e643f1-0dc0-47dc-89cb-3b6d90dbaaf6")
+	)
+	(junction
+		(at 160.02 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a256949c-6857-413b-b12e-b2e0239cc82d")
+	)
+	(junction
+		(at 201.93 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7fa6308-d8f6-4be9-bf6e-7f0524f19f55")
+	)
+	(junction
+		(at 191.77 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab15b41f-c465-43da-8c7e-54606904cca9")
+	)
+	(junction
+		(at 201.93 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abb294bb-e55f-4dab-a647-49fb57d0206a")
+	)
+	(junction
+		(at 191.77 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac87014e-9da8-4301-ac80-4d9b07956b6c")
+	)
+	(junction
+		(at 247.65 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b28e87a7-8ed1-42c4-b9df-6e780bf461aa")
+	)
+	(junction
+		(at 247.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be814597-5e79-439b-96b5-e6c6fecf3c06")
+	)
+	(junction
+		(at 217.17 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d046c90a-a59f-4f30-8142-d08885dae340")
+	)
+	(junction
+		(at 232.41 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2b95eda-9981-49c8-8b35-4ff7cf9465f8")
+	)
+	(junction
+		(at 191.77 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d42558ec-da7f-4131-8333-5bb6b7f96431")
+	)
+	(junction
+		(at 176.53 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9ef98b6-4eca-4b4c-8a58-93b92e8be615")
+	)
+	(junction
+		(at 160.02 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daab8bc1-8c6e-493f-a10f-210aa6cbd19f")
+	)
+	(junction
+		(at 176.53 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e62fadf1-ad5f-4bc7-a43d-79024495b346")
+	)
+	(junction
+		(at 247.65 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9967066-cc3c-4009-9afe-a81f35bfd021")
+	)
+	(junction
+		(at 217.17 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b88dc8-fca9-469e-b155-2d1b9d5b99d6")
+	)
+	(junction
+		(at 222.25 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec930f5b-a041-47de-956d-0f1108d9504c")
+	)
+	(junction
+		(at 207.01 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eecb71e8-d3a2-4a6c-883a-e669bacbc6e3")
+	)
+	(junction
+		(at 207.01 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f188431f-b1e1-4635-954b-8e2e5741ca01")
+	)
+	(no_connect
+		(at 44.45 74.93)
+		(uuid "120551a9-6f8f-4f2b-ad26-63491a31fe02")
+	)
+	(no_connect
+		(at 44.45 78.74)
+		(uuid "210b4cc9-53ce-4519-9107-9196f6ca41bb")
+	)
+	(no_connect
+		(at 62.23 38.1)
+		(uuid "62f255ea-9fa9-40ea-9c50-f7a04b695540")
+	)
+	(no_connect
+		(at 44.45 71.12)
+		(uuid "832c9d02-8949-45a5-83bd-fd3d1d286ffb")
+	)
+	(no_connect
+		(at 69.85 38.1)
+		(uuid "ad7c4e03-4870-4902-b9ee-2e9a53a71a0e")
+	)
+	(no_connect
+		(at 77.47 38.1)
+		(uuid "b52825a9-e9ed-4161-85c6-0ffe842e1d52")
+	)
+	(no_connect
+		(at 73.66 38.1)
+		(uuid "bd077bd4-7be5-4497-99d6-2ed24a9862ab")
+	)
+	(no_connect
+		(at 66.04 38.1)
+		(uuid "ea10b588-2c4c-448b-9fe2-f9ffd9c30828")
+	)
+	(no_connect
+		(at 58.42 38.1)
+		(uuid "ec660b6d-dbee-41d0-9aa0-c6456ccc2ede")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007c0e0a-9c84-4dd9-8c81-c4cb9ce58c94")
+	)
+	(wire
+		(pts
+			(xy 170.18 134.62) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e85184-5e93-46f2-80e8-f3fd202d2ac2")
+	)
+	(wire
+		(pts
+			(xy 130.81 152.4) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bf06e5-869c-4625-8538-104daa7893fd")
+	)
+	(wire
+		(pts
+			(xy 217.17 72.39) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0400ab78-3caf-46a7-a7b6-9e74719c621a")
+	)
+	(wire
+		(pts
+			(xy 44.45 59.69) (xy 36.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0911bceb-93b8-4ee7-9f15-e6e7bece3d29")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8af1c5-4d21-4ead-98b6-6b6a3a6cf791")
+	)
+	(wire
+		(pts
+			(xy 222.25 59.69) (xy 237.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1739a3f3-078f-4944-8348-a074e66ab3e8")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 99.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c061df-8974-400e-940d-552fea055baa")
+	)
+	(wire
+		(pts
+			(xy 104.14 74.93) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da4fb6a-d342-4c9a-be72-ca2f31bc86cf")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0a5aa2-6166-4cdd-9fc8-e660f59e38e8")
+	)
+	(wire
+		(pts
+			(xy 87.63 59.69) (xy 93.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f151075-42e8-4f36-95f3-0d55e83d4500")
+	)
+	(wire
+		(pts
+			(xy 247.65 72.39) (xy 247.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211da0ad-cf0a-49a1-bfeb-74e5efd5ee2a")
+	)
+	(wire
+		(pts
+			(xy 146.05 100.33) (xy 146.05 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22229aaf-c0c1-4065-9ff6-c77362649ce7")
+	)
+	(wire
+		(pts
+			(xy 191.77 59.69) (xy 207.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bddc8d-f371-436e-ba9f-88ffd1fe82e9")
+	)
+	(wire
+		(pts
+			(xy 186.69 113.03) (xy 186.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287981cd-8fdb-4d27-8d55-b664f21cf333")
+	)
+	(wire
+		(pts
+			(xy 96.52 52.07) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28973d23-a5ad-4cf3-94d9-00b5b2c6aeeb")
+	)
+	(wire
+		(pts
+			(xy 222.25 142.24) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5de754-e2bd-4a8e-b4e9-5dcf1dd53c71")
+	)
+	(wire
+		(pts
+			(xy 29.21 22.86) (xy 99.06 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3228d885-49c7-4576-a3f5-6440285a1096")
+	)
+	(wire
+		(pts
+			(xy 232.41 72.39) (xy 232.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cf6aa1-1ed2-4f71-8ce7-219d17329319")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358ed452-87b9-4beb-9eea-730f61434870")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 44.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e4966a-861e-402b-a810-73b1216fb236")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f6601b-326f-4d82-aba9-b794996e35c3")
+	)
+	(wire
+		(pts
+			(xy 201.93 92.71) (xy 201.93 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388f145e-dcfa-4809-81dd-daf91eede59f")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7007d7-1bc5-41fe-b2c5-b01588325291")
+	)
+	(wire
+		(pts
+			(xy 217.17 52.07) (xy 217.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa675bb-012d-4f4a-91e7-6a650ec35410")
+	)
+	(wire
+		(pts
+			(xy 232.41 154.94) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bdffdb-4473-4135-8ade-274bb9d738a6")
+	)
+	(wire
+		(pts
+			(xy 160.02 142.24) (xy 176.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4156f757-4012-4505-814b-698304b84bb0")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 217.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437cf088-36b5-4726-b828-a7fdfbf30b8c")
+	)
+	(wire
+		(pts
+			(xy 201.93 72.39) (xy 201.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ede430-c282-4281-9494-112f0091b963")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472ca6ff-7217-4f52-a741-58ef46cda576")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b7a29c-4828-413b-853f-488f25ec20c2")
+	)
+	(wire
+		(pts
+			(xy 128.27 59.69) (xy 128.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a531ad-98ee-4eba-b4e6-11e9e9fed1ca")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 176.53 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4918ceb9-c9e2-4803-b045-d1100df925e5")
+	)
+	(wire
+		(pts
+			(xy 217.17 113.03) (xy 217.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9b31a2-d7d8-4ffa-982e-842a00658dec")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab0a836-6648-46dd-a899-f418a617308e")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 140.97 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b451aad-be00-46f3-bbb9-ee5434845173")
+	)
+	(wire
+		(pts
+			(xy 36.83 59.69) (xy 36.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6a8066-e89b-4663-a905-d1d05df5c5bb")
+	)
+	(wire
+		(pts
+			(xy 125.73 157.48) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518cce93-93f4-47f9-abd9-b7ba84a23b5d")
+	)
+	(wire
+		(pts
+			(xy 222.25 100.33) (xy 237.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cc37f4-0a8d-471a-a087-3f1364428fac")
+	)
+	(wire
+		(pts
+			(xy 247.65 113.03) (xy 247.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5703e38c-35dd-4687-a4f7-c4965f0065a3")
+	)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 191.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584ff95c-ff13-4f86-8456-7f75cfb3fed3")
+	)
+	(wire
+		(pts
+			(xy 133.35 54.61) (xy 133.35 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2359a5-708f-480e-8e91-3b2e61ea20c0")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5aa63f-e9ab-490f-ac1b-8d2e74cdeff5")
+	)
+	(wire
+		(pts
+			(xy 186.69 134.62) (xy 186.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c5b191-39ca-49b7-9e7b-d934ba1c3824")
+	)
+	(wire
+		(pts
+			(xy 160.02 80.01) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6729a44c-1eee-43e7-834c-1d353721d08c")
+	)
+	(wire
+		(pts
+			(xy 201.93 52.07) (xy 201.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697807b3-06b3-4ff6-8c25-73f827452e6d")
+	)
+	(wire
+		(pts
+			(xy 207.01 59.69) (xy 222.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a65c761-ceaa-437b-aa3a-9929a64ff886")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d10e02c-2f6e-401b-b192-3beb8d3e009a")
+	)
+	(wire
+		(pts
+			(xy 138.43 49.53) (xy 138.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd81710-9ce2-438f-8c47-6eb761fd9254")
+	)
+	(wire
+		(pts
+			(xy 91.44 44.45) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72558a9a-fa39-4066-a7f7-a51087d75ab6")
+	)
+	(wire
+		(pts
+			(xy 143.51 142.24) (xy 160.02 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77265310-b9d5-4104-ac15-cce28eeff215")
+	)
+	(wire
+		(pts
+			(xy 148.59 39.37) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a87113b-8fec-4eae-b54e-636028dab98e")
+	)
+	(wire
+		(pts
+			(xy 40.64 33.02) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1e56b3-14af-4354-b9c4-34ccad596dc0")
+	)
+	(wire
+		(pts
+			(xy 96.52 39.37) (xy 148.59 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802faced-c9bf-4a70-a57e-2ae28a8587ae")
+	)
+	(wire
+		(pts
+			(xy 222.25 120.65) (xy 237.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814baba1-027f-4e22-aaed-a80ec26e5fb0")
+	)
+	(wire
+		(pts
+			(xy 176.53 142.24) (xy 191.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826830e9-634f-4999-911f-baf4c96be03d")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83cb7b86-4665-4600-90ea-e36439954242")
+	)
+	(wire
+		(pts
+			(xy 140.97 120.65) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bbf4f7-5237-4aa0-ab23-5b0ec64d51d7")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85768d2e-1046-41e2-8bd5-db4309bec93f")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 99.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4dc936-6045-454c-b90c-1cb9a5a18ce2")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9dc6c0-ab34-43eb-8c4e-e1f0375a5a4b")
+	)
+	(wire
+		(pts
+			(xy 186.69 92.71) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90312027-e541-42cc-95ba-9207711022b4")
+	)
+	(wire
+		(pts
+			(xy 186.69 72.39) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9062f304-6cef-4d0a-aafb-f6b3000bd3fb")
+	)
+	(wire
+		(pts
+			(xy 201.93 113.03) (xy 201.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942ea284-32a4-4c57-a120-1225dc27346e")
+	)
+	(wire
+		(pts
+			(xy 247.65 157.48) (xy 125.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9608fc44-9e42-437f-a952-538b3fd85033")
+	)
+	(wire
+		(pts
+			(xy 247.65 52.07) (xy 247.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9864ee2e-67fd-4004-8559-9a02ceeff020")
+	)
+	(wire
+		(pts
+			(xy 143.51 44.45) (xy 143.51 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b458827-802e-4b2b-9460-19f4b757dd87")
+	)
+	(wire
+		(pts
+			(xy 186.69 52.07) (xy 186.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c674dcf-9b1d-40f2-a33c-7f1eef7d2385")
+	)
+	(wire
+		(pts
+			(xy 170.18 72.39) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce95844-fb22-4a49-80b0-ea1b1f1f6025")
+	)
+	(wire
+		(pts
+			(xy 160.02 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3d615e-608f-4c1c-8213-f788a64bc1f1")
+	)
+	(wire
+		(pts
+			(xy 186.69 147.32) (xy 135.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e28c131-6a5d-4a94-b6a4-441f3baf3524")
+	)
+	(wire
+		(pts
+			(xy 170.18 52.07) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a234f9e9-6762-4d39-bd95-04483fe65e79")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3745b40-ebf7-4ac9-9d7e-58123c8f8e20")
+	)
+	(wire
+		(pts
+			(xy 138.43 144.78) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a970e9-89c2-49e1-999e-09585d76073c")
+	)
+	(wire
+		(pts
+			(xy 217.17 134.62) (xy 217.17 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab10126-5b95-4d4d-8671-d3517d159454")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.91) (xy 146.05 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbefce2-b866-499f-94dd-6578c42db821")
+	)
+	(wire
+		(pts
+			(xy 217.17 152.4) (xy 130.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee8e783-e0ad-409a-bcd5-9a3a5cab7314")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af00da54-5bec-4a9d-9374-01ad93bb7037")
+	)
+	(wire
+		(pts
+			(xy 44.45 67.31) (xy 29.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ab493a-fabe-4999-8e27-95bd758a36fc")
+	)
+	(wire
+		(pts
+			(xy 191.77 100.33) (xy 207.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36c1e39-5665-4271-9101-551847fde2f0")
+	)
+	(wire
+		(pts
+			(xy 93.98 29.21) (xy 93.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71e5119-81fa-491e-902b-b62f97ef3e20")
+	)
+	(wire
+		(pts
+			(xy 146.05 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ae7a46-4d00-404d-9dca-c3f9ead26626")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97c1c9c-24ee-4b54-9ce2-9bae3ddad151")
+	)
+	(wire
+		(pts
+			(xy 201.93 134.62) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9da275e-d360-4756-81a3-e529ffe4e20b")
+	)
+	(wire
+		(pts
+			(xy 207.01 80.01) (xy 222.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff20b82-832e-46ba-8b58-f0b58c2527bd")
+	)
+	(wire
+		(pts
+			(xy 191.77 120.65) (xy 207.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e489db-b50e-40c7-9393-69bab04ce6c4")
+	)
+	(wire
+		(pts
+			(xy 135.89 147.32) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f4eb5d-cf7d-4305-b9b5-0d672d13c916")
+	)
+	(wire
+		(pts
+			(xy 96.52 52.07) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4355744-5211-4395-9ab9-1a04c204f20e")
+	)
+	(wire
+		(pts
+			(xy 191.77 142.24) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62f2973-7a21-411f-89f5-ac8eeada9275")
+	)
+	(wire
+		(pts
+			(xy 96.52 39.37) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c737594f-e0c0-4da2-877c-181999ef058d")
+	)
+	(wire
+		(pts
+			(xy 207.01 100.33) (xy 222.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ab7ef8-672e-42db-bb82-627be2c1bddf")
+	)
+	(wire
+		(pts
+			(xy 104.14 59.69) (xy 128.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b03050-212c-41ea-acdd-4dcad9c0b3dc")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a3e071-8337-4610-9acf-1a67c62f44ef")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 151.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca945215-c06e-4448-b723-43354da2574b")
+	)
+	(wire
+		(pts
+			(xy 247.65 134.62) (xy 247.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbad6a43-9aae-425d-b6f5-270140f6a79d")
+	)
+	(wire
+		(pts
+			(xy 247.65 92.71) (xy 247.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0d9825-b302-4daa-bb39-e290d455504a")
+	)
+	(wire
+		(pts
+			(xy 33.02 25.4) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf40e52d-4d19-441f-91c7-51753c05abd9")
+	)
+	(wire
+		(pts
+			(xy 99.06 36.83) (xy 151.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0452112-81cf-46a3-ac6e-146a47c38d5a")
+	)
+	(wire
+		(pts
+			(xy 232.41 92.71) (xy 232.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b37b9b-1b24-40c2-8e78-bc4123716fa1")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5de39b5-b979-4c10-a8f5-16d1cb39cc7f")
+	)
+	(wire
+		(pts
+			(xy 87.63 74.93) (xy 104.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d975b16f-a828-4dcf-97ef-56809035d381")
+	)
+	(wire
+		(pts
+			(xy 232.41 113.03) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d999a3fc-ed5a-4144-87f9-8db8cea5a8df")
+	)
+	(wire
+		(pts
+			(xy 176.53 120.65) (xy 191.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cbcad8-3241-4ef6-93d6-b9403c1098b3")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 40.64 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20746ea-128b-40a2-b25e-86fca55a847f")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3057a8d-1855-4460-aac6-4b3d2e9c6324")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.53) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c9a413-e508-4d21-a3e5-c0061465fed3")
+	)
+	(wire
+		(pts
+			(xy 29.21 67.31) (xy 29.21 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90e587e-c559-45a1-a648-3bc39996e88c")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9599b16-845e-4b33-8a54-613f7a3f535a")
+	)
+	(wire
+		(pts
+			(xy 96.52 25.4) (xy 33.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaaa035-b4c9-466f-a401-7a1329cbf131")
+	)
+	(wire
+		(pts
+			(xy 207.01 142.24) (xy 222.25 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec81e664-6719-4f82-9288-36549b1de8ad")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef21a1b0-662d-48a0-a9a8-e428e170e601")
+	)
+	(wire
+		(pts
+			(xy 128.27 154.94) (xy 232.41 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f885b254-23bc-4ca7-906c-7a4ef69f057e")
+	)
+	(wire
+		(pts
+			(xy 207.01 120.65) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa735035-833e-4118-b555-b379e862bb0f")
+	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 237.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8c377d-6362-47c6-a886-ecc94a7568c2")
+	)
+	(wire
+		(pts
+			(xy 232.41 52.07) (xy 232.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc19e8e2-1c72-4091-9ba2-c545c19a638a")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6ef2f4-66af-4ed6-b563-e3099febd97e")
+	)
+	(wire
+		(pts
+			(xy 99.06 22.86) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd71eab-ebde-4d52-b125-623d047d3c95")
+	)
+	(wire
+		(pts
+			(xy 91.44 44.45) (xy 143.51 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe056935-cffa-4e7b-9f6d-54bee73e87dd")
+	)
+	(text "03.20.2025\n"
+		(exclude_from_sim no)
+		(at 215.138 193.294 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "357d39a5-6500-4699-8477-6417a41cdc68")
+	)
+	(text "Smartboard v1.0"
+		(exclude_from_sim no)
+		(at 197.866 171.45 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "58b863fd-6215-411e-a22e-b4b88ae07f39")
+	)
+	(text "by C. Kalapati"
+		(exclude_from_sim no)
+		(at 187.706 175.768 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "7735f6f6-7fdf-4193-8728-8f1312c1e8f2")
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 237.49 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "037bbfa7-b09e-4886-aa0f-d523cf9a12a0")
+		(property "Reference" "D6"
+			(at 240.03 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 240.03 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af3035fd-272c-4f23-87f2-33ef4f42f916")
+		)
+		(pin "2"
+			(uuid "255d4996-7d9d-46a8-8c5e-c394ddab0f42")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 196.85 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a814bd-ad12-4d73-bfe8-b12e86f6f05c")
+		(property "Reference" "SW21"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 196.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 196.85 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2f25f72-8ed3-4647-b001-bc741bd7e30a")
+		)
+		(pin "1"
+			(uuid "2637555e-7a75-4680-9ec1-363a1f7f8d49")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 191.77 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce345f8-218c-4ec9-ba26-6ac121f4f87f")
+		(property "Reference" "D9"
+			(at 194.31 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 194.31 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71ca3df6-dd11-4389-83fc-423b4ec566a9")
+		)
+		(pin "2"
+			(uuid "ae37da64-72f7-45a9-a6d8-ad089b247e69")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 242.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12c88aeb-d80e-4b3b-a850-b6910302c077")
+		(property "Reference" "SW24"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 242.57 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40346d4e-3a0f-4dfb-aebf-b115cab876b8")
+		)
+		(pin "1"
+			(uuid "514ce28c-5c6d-42d6-ac3b-9e403fe0c042")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 165.1 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13296342-84d1-4045-90c6-cba5f1160479")
+		(property "Reference" "SW13"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 165.1 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9cc9d51-15fd-4bf8-81ca-18a91400b59b")
+		)
+		(pin "1"
+			(uuid "bee2be15-fcce-4545-8420-1a9cd85040a4")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 222.25 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1743dab3-435a-48fa-a361-26674926ebc2")
+		(property "Reference" "D11"
+			(at 224.79 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 224.79 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62a1c706-ea2a-4fbf-be52-dc14c50565a6")
+		)
+		(pin "2"
+			(uuid "3eab48f8-d66a-4ae2-8c19-05822dc56833")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 237.49 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c4191bc-5777-416f-8f21-e8481377bd61")
+		(property "Reference" "D18"
+			(at 240.03 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 240.03 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e2e1c78-c00d-4882-8e76-62579edc86af")
+		)
+		(pin "2"
+			(uuid "dca8d567-1fbe-48ae-a22d-eb7b8dab5884")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 165.1 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27af46d6-37f8-4f02-abfc-af2829bb42b8")
+		(property "Reference" "SW1"
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 165.1 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cf9db9b-beac-47be-ae54-a9c6b77cbd40")
+		)
+		(pin "1"
+			(uuid "555f0865-b963-4e9d-a419-00b48d85ff56")
+		)
+		(instances
+			(project ""
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 176.53 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2926bf5f-e113-4155-ac9f-d46ff6853753")
+		(property "Reference" "D14"
+			(at 179.07 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 179.07 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59458b85-5c3f-4436-9c56-2127ecdde524")
+		)
+		(pin "2"
+			(uuid "0945295f-93ee-4d5c-ad26-262433e14fbf")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 191.77 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "296a7b07-0776-47a2-a93a-ad47776fbd87")
+		(property "Reference" "D15"
+			(at 194.31 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 194.31 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f68d28-3c2a-41af-9173-32097efedc14")
+		)
+		(pin "2"
+			(uuid "cfbbb155-c7af-4a38-ad90-ba5090598668")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed Studio nRF52840:XIAO-RP2040-SMD")
+		(at 66.04 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dfb8211-b72c-4df0-849f-c63fd7e16a2e")
+		(property "Reference" "U1"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO-RP2040-SMD"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seeed Studio:XIAO-nRF52840-SMD"
+			(at 66.548 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "fa7e7542-542b-4372-9594-624a396428a3")
+		)
+		(pin "17"
+			(uuid "a3be8d57-ca23-4213-90e1-c6bc096420c5")
+		)
+		(pin "18"
+			(uuid "3eb92699-fcaf-4bf3-ac5f-820f4b535b0d")
+		)
+		(pin "10"
+			(uuid "5ee6b8f3-0948-488e-990d-42323fa1572c")
+		)
+		(pin "5"
+			(uuid "0746d6bd-b117-44d8-9dce-d6ea081bf87a")
+		)
+		(pin "3"
+			(uuid "de52f95b-c4f7-4cb6-a717-45d9f7205378")
+		)
+		(pin "4"
+			(uuid "6f56736e-7c65-437c-ab1f-8f14a02a29f4")
+		)
+		(pin "6"
+			(uuid "7a60ccd5-b835-4de0-8410-6ab420c689b6")
+		)
+		(pin "19"
+			(uuid "51d55a46-a947-46c1-9417-dfec09f09b8c")
+		)
+		(pin "2"
+			(uuid "6ebcabc6-b83d-47ee-a988-4672c1205d18")
+		)
+		(pin "7"
+			(uuid "d14ada98-1620-4d0c-b7af-c1d93e964f4a")
+		)
+		(pin "8"
+			(uuid "5fb22215-0f0d-4541-b0d0-6a4c3b3d8a3f")
+		)
+		(pin "9"
+			(uuid "d7074bf0-928a-4e50-969a-c5fa7e5b92fd")
+		)
+		(pin "1"
+			(uuid "db9526a6-6cdd-42d6-9966-610e174db0e1")
+		)
+		(pin "15"
+			(uuid "1d82a191-e1b6-4347-bb64-6f7c202a542b")
+		)
+		(pin "14"
+			(uuid "08883f89-af2a-403b-bdcc-552c7934bd25")
+		)
+		(pin "13"
+			(uuid "0dbb623c-1f5b-4dd3-940a-d1c93d76cb9c")
+		)
+		(pin "11"
+			(uuid "650bd0f9-9b3f-48f7-9128-c4713bd1eb8b")
+		)
+		(pin "12"
+			(uuid "b223263b-63c5-49bb-8775-b220db1d6f09")
+		)
+		(pin "20"
+			(uuid "9183278f-0ac3-45fa-bab8-e21b9f887889")
+		)
+		(instances
+			(project ""
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 212.09 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3480e009-320a-496f-afde-1cd8182585c2")
+		(property "Reference" "SW28"
+			(at 212.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 212.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 212.09 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71686045-00f9-4f78-bc5b-7b59bca864a7")
+		)
+		(pin "1"
+			(uuid "1b5a5533-eb25-4ece-b06c-332976d9528e")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 181.61 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b72b438-2ee4-49f0-b1cb-cc5bc540648d")
+		(property "Reference" "SW20"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 181.61 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5346e44-0dfb-461f-a073-c53c8f14e976")
+		)
+		(pin "1"
+			(uuid "0a12f6c1-859b-4d25-9001-9b6b69cbce4e")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 181.61 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c41c7a-c9b6-4a0d-9c6a-f63f17dbfad5")
+		(property "Reference" "SW14"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 181.61 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0440403-0018-479a-bc0c-83b391573aec")
+		)
+		(pin "1"
+			(uuid "e6487273-4357-4e71-9ca1-6f6e3169add7")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 196.85 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4341932e-d1a1-4956-934f-36779797fae5")
+		(property "Reference" "SW15"
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 196.85 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f8bbf9b-af77-4a1f-8f52-0d60fe4eb6ca")
+		)
+		(pin "1"
+			(uuid "332691e8-b018-479b-aade-1a2169cdd336")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 212.09 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a2d605a-7a06-4b77-a57c-e7659ca4f94c")
+		(property "Reference" "SW10"
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 212.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 212.09 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c7aa6ec-bd4c-45f3-9b93-905093821842")
+		)
+		(pin "1"
+			(uuid "97d35c0a-1305-42ad-a562-51dd983156f3")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 227.33 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b7bcde5-107e-4085-b5b6-68ccf7574ff3")
+		(property "Reference" "SW5"
+			(at 227.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 227.33 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6191763a-b04d-4696-896d-d18a2d0ba66c")
+		)
+		(pin "1"
+			(uuid "1d1e2dec-cc1e-4b21-bc0b-d49f1e2ca086")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 165.1 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c6b61ca-7371-4dfc-ac9c-cafd7dc7da84")
+		(property "Reference" "SW7"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 165.1 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c78273f4-7ebe-42c5-8bc2-767d3f6a98d5")
+		)
+		(pin "1"
+			(uuid "104857f7-37a7-4217-82f4-cbdf8fdb1467")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 227.33 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55f7286d-73d2-4587-ad62-ef1ae65207ad")
+		(property "Reference" "SW17"
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 227.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 227.33 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3bb6d23-86e6-481b-a218-046b437fa460")
+		)
+		(pin "1"
+			(uuid "833d1d49-7250-4325-b980-1f6278b24828")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 242.57 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a7b6c4-6939-4b64-994a-0c2eef8ee42c")
+		(property "Reference" "SW12"
+			(at 242.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 242.57 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f50f69e-0e4c-4592-a75c-21c11125d0ea")
+		)
+		(pin "1"
+			(uuid "d1f7ee4e-7612-4a90-a649-faa4fa4f8a63")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 176.53 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a51b6fe-7033-4a99-b636-1369cc034c40")
+		(property "Reference" "D2"
+			(at 179.07 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 179.07 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a824c7-b932-4588-8b3c-168f8dfec38b")
+		)
+		(pin "2"
+			(uuid "4e43f46f-0934-4e8f-895e-6cdabee3f0f9")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 242.57 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7242bfed-d67d-47a5-b332-e2d90617f80d")
+		(property "Reference" "SW6"
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 242.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 242.57 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "730feb47-dc94-4818-927e-bdbe55e01df6")
+		)
+		(pin "1"
+			(uuid "f34b3cf7-6bb1-4694-9649-fc046c5b4679")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 237.49 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734637c4-0393-4c83-af21-d0cc8eeb8fbf")
+		(property "Reference" "D30"
+			(at 240.03 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 240.03 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeb42bae-9b8b-4977-b615-94b4b806deb9")
+		)
+		(pin "2"
+			(uuid "a46c3edf-5ddf-4386-a515-3f5ae7543176")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 222.25 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74105e25-8843-4be5-b869-1c3d4572e464")
+		(property "Reference" "D5"
+			(at 224.79 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 224.79 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e35ff3e2-a93e-4960-baad-98db63b2a971")
+		)
+		(pin "2"
+			(uuid "c04dd3d5-610d-4cdf-abbe-d5914f309e60")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 181.61 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd69f70-5398-4a4e-ae61-64f1ebbb68c5")
+		(property "Reference" "SW26"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 181.61 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4078ddf4-a989-40ec-89fe-f98371c3e4dc")
+		)
+		(pin "1"
+			(uuid "adfafcc0-4bb2-4e3d-8b4a-f21e023af56e")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 207.01 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d6969b-2dd5-460f-8dd9-5ed169242be4")
+		(property "Reference" "D22"
+			(at 209.55 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 209.55 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a1d6cd-9203-470c-86c8-8bf574826e1d")
+		)
+		(pin "2"
+			(uuid "8bf356c1-f0ec-478f-bf15-3e27d132a601")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 191.77 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88a5a6ba-20c0-4dea-972c-7e2cd4c93650")
+		(property "Reference" "D27"
+			(at 194.31 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 194.31 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53869fc1-27e0-454e-a4f6-6cf793960b19")
+		)
+		(pin "2"
+			(uuid "72dbbeb3-c611-46d6-b48a-b2bf3df7cf95")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 176.53 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95d399b8-0a59-4d99-abf4-d977449abf4b")
+		(property "Reference" "D26"
+			(at 179.07 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 179.07 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "492de535-f9e0-4dbd-aafa-07a8ea86afd6")
+		)
+		(pin "2"
+			(uuid "5aec7692-c20f-4948-a8a1-ae53fb7e8fd8")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 237.49 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a9431b9-0469-4c0c-ab5a-9a111a657b37")
+		(property "Reference" "D12"
+			(at 240.03 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 240.03 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23a83f4c-cd56-410e-93d7-2bc22a278195")
+		)
+		(pin "2"
+			(uuid "9fb513cf-d8ed-4e3c-8feb-5c195cf60e0d")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 196.85 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ba83ee2-5683-4fa5-a491-44af45668589")
+		(property "Reference" "SW3"
+			(at 196.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 196.85 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f90e9cca-6879-4cf3-80c5-cda7080e3aa1")
+		)
+		(pin "1"
+			(uuid "ab1c7679-e3b0-4ec0-b97b-861831b528a3")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 212.09 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9483e9-5e69-47fb-84d1-1578a9bc85b4")
+		(property "Reference" "SW16"
+			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 212.09 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9894d05-b313-4596-af2e-2eb4b3c2fb51")
+		)
+		(pin "1"
+			(uuid "529312e0-52fd-4814-8242-1eb0c9f2e75e")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 227.33 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f34b88-8162-4a9f-97a6-30aa987de336")
+		(property "Reference" "SW11"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 227.33 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7d43256-4e13-4b2f-a396-6dc8d2c3b9d5")
+		)
+		(pin "1"
+			(uuid "a1d3e95b-df5b-4b99-9341-f561a2f0eb4c")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 242.57 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad5b9077-996a-44c2-a99b-db7181437e42")
+		(property "Reference" "SW30"
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 242.57 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec779dba-f37f-4c3e-aff3-13fa9055d051")
+		)
+		(pin "1"
+			(uuid "419f4efd-3c45-43a7-acac-19d9ce248aef")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 160.02 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae35e0a7-3538-40db-92ff-0c2773345521")
+		(property "Reference" "D25"
+			(at 162.56 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 162.56 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "274daac1-a66d-4785-a6ef-affa8eb8a564")
+		)
+		(pin "2"
+			(uuid "940d4bde-96d3-465c-8d01-d3bbe2678af5")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 222.25 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee6f133-43e6-460e-8c39-67258328e995")
+		(property "Reference" "D17"
+			(at 224.79 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 224.79 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3c9a533-6f58-4644-9564-30e0e625c2bf")
+		)
+		(pin "2"
+			(uuid "65292f50-069b-4048-9f15-3053fc69335e")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 160.02 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2fd6a13-1470-4a9e-b917-874e1cb79d9b")
+		(property "Reference" "D19"
+			(at 162.56 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 162.56 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa7f4dc-b1f5-4139-8280-2fc996bea364")
+		)
+		(pin "2"
+			(uuid "a87adccb-6d3c-433c-a87a-f1d6e101a2d7")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 160.02 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4883310-3319-4983-b134-02d6b72e2802")
+		(property "Reference" "D13"
+			(at 162.56 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 162.56 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea16df31-6d0c-4566-91b6-3a48304c0962")
+		)
+		(pin "2"
+			(uuid "458a1713-a959-485a-af5f-e2217fbdbece")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 165.1 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca0f0fb2-ba93-4904-aa33-9567c5d53401")
+		(property "Reference" "SW19"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 165.1 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "334aae5b-f8c4-40a1-b86a-5ad06ef62d66")
+		)
+		(pin "1"
+			(uuid "b5837ab6-28b0-41d0-b972-760112e91ee3")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 160.02 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca7b1aa2-1246-47e6-a9f3-611fe3b1d7c5")
+		(property "Reference" "D1"
+			(at 162.56 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 162.56 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d93b947-69d3-432b-994b-14d865f82f29")
+		)
+		(pin "2"
+			(uuid "05a59e41-35e7-4239-9a72-7f40d0d2a77d")
+		)
+		(instances
+			(project ""
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 191.77 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca7f6eef-044c-454e-8c1b-85bc134ca6ed")
+		(property "Reference" "D3"
+			(at 194.31 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 194.31 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a31b8a1-36f5-4026-953f-516d19736feb")
+		)
+		(pin "2"
+			(uuid "500ff222-5544-44d7-9f6c-c7f025404167")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 165.1 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0dff58f-f070-4ebe-b344-90dfc0e5a4e6")
+		(property "Reference" "SW25"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 165.1 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "334a8482-bbad-444d-bf15-4ac41f481e90")
+		)
+		(pin "1"
+			(uuid "f297a374-1678-4383-bb13-b6bdd68b87f6")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 176.53 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c5d875-4be6-4e66-8fb2-65f4fd6db756")
+		(property "Reference" "D20"
+			(at 179.07 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 179.07 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b59a9ca0-6880-4456-83ff-65986b5d743c")
+		)
+		(pin "2"
+			(uuid "98dc4374-38cc-448a-ae24-91924ae3b072")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 212.09 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5456bf1-0ba7-49b0-b27e-2467cfa38983")
+		(property "Reference" "SW4"
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 212.09 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47a0d4d2-fb44-46fc-87ac-91216ef9acfb")
+		)
+		(pin "1"
+			(uuid "cc61fc22-392f-4c30-b4a8-18afb63a9772")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 207.01 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d114b1-616b-4d1b-ba76-1b166ea3c721")
+		(property "Reference" "D28"
+			(at 209.55 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 209.55 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81738958-6c51-4c20-8284-69aef9019183")
+		)
+		(pin "2"
+			(uuid "754fdfc4-0424-41e9-88a9-1f6fb57e2b05")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 242.57 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d82401f7-318e-416f-827a-c7f09fb76ca3")
+		(property "Reference" "SW18"
+			(at 242.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 242.57 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6f8a8d3-1cdc-4bca-aee3-82b0324b3347")
+		)
+		(pin "1"
+			(uuid "cdb0c5be-9cab-461e-9169-341ed4c312b1")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 237.49 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e5c798-1cc7-4080-b080-e4f0ee1cdad8")
+		(property "Reference" "D24"
+			(at 240.03 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 240.03 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf1efd62-8f7f-4971-a2e7-be264d07b0b7")
+		)
+		(pin "2"
+			(uuid "c51e23f8-b5f0-44be-baaa-f8f30e430c14")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 207.01 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab741aa-bece-458c-8644-84a67697c53a")
+		(property "Reference" "D16"
+			(at 209.55 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 209.55 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3aba37a-ee10-492b-8477-809ec52da908")
+		)
+		(pin "2"
+			(uuid "4419f463-43da-4d70-bc40-9117d830fa3b")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 181.61 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcbad989-9796-49ed-9c32-8793d4230b3e")
+		(property "Reference" "SW8"
+			(at 181.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 181.61 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "511023cf-dcbe-4b8a-90fc-7bf9b623c590")
+		)
+		(pin "1"
+			(uuid "fe8a812c-049d-4a53-8479-83d5ac3ce6c6")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 160.02 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e08ca06a-7d00-40ed-b29c-28edb50abc66")
+		(property "Reference" "D7"
+			(at 162.56 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 162.56 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd5882fa-2626-4ffb-97ab-003072e3e94d")
+		)
+		(pin "2"
+			(uuid "62d7719c-b136-486f-bbee-b9a7224d384b")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 207.01 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e18aaf2c-9ce2-4716-b98b-2b183a1564ae")
+		(property "Reference" "D4"
+			(at 209.55 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 209.55 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d21d2cd6-61a4-457f-80a4-35539f6e5a1f")
+		)
+		(pin "2"
+			(uuid "b2ec5c73-d1a3-4afd-aebb-0399ac4d0155")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 222.25 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34901ef-de9d-4cd8-8742-1c836f117b2c")
+		(property "Reference" "D29"
+			(at 224.79 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 224.79 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ac0a448-e10a-49e5-a99f-b403765dc88e")
+		)
+		(pin "2"
+			(uuid "a5a1e076-88c6-44d8-821d-65ceee2b9460")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 207.01 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5cb7401-f99f-4e51-9ae5-a0a51ced9f83")
+		(property "Reference" "D10"
+			(at 209.55 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 209.55 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36ea4eab-8ad7-4f2b-8565-c0dd78a4ff7a")
+		)
+		(pin "2"
+			(uuid "fa4c5d85-064b-4715-a5d3-817572fb0581")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 181.61 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8de393e-2977-4aef-9f71-2155ea42dfe4")
+		(property "Reference" "SW2"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 181.61 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "886626bd-56d6-48d5-a3ad-6e905980220a")
+		)
+		(pin "1"
+			(uuid "ff9e7c00-fd46-4b7d-ac4c-184071ccfdfc")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 196.85 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07d35ab-080c-4d86-95be-484258bb49e7")
+		(property "Reference" "SW9"
+			(at 196.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 196.85 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a73a55f9-086f-4605-b511-206df6025a5f")
+		)
+		(pin "1"
+			(uuid "1e283660-bdd3-48b2-acee-cfb3cbb3f89f")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 176.53 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1acf79c-5382-46c5-82b9-06dd2b574b28")
+		(property "Reference" "D8"
+			(at 179.07 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 179.07 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e377a32-b13e-4031-877e-f6308cb33985")
+		)
+		(pin "2"
+			(uuid "3b4c474e-286c-4876-b58e-bb21bbbd59c9")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 227.33 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3fe0d4c-886f-4869-a9f8-f2f3e521c284")
+		(property "Reference" "SW29"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 227.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 227.33 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "024bcc5f-5d30-4957-b9db-5e3ac3224d5d")
+		)
+		(pin "1"
+			(uuid "b45c5b77-9b84-4c97-bb4d-49c43d268dbb")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 212.09 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f44e04bb-5b17-457d-972c-ab4d537522e1")
+		(property "Reference" "SW22"
+			(at 212.09 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 212.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 212.09 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10fc8285-fa3c-4e1d-93d9-139e577d14a3")
+		)
+		(pin "1"
+			(uuid "baf50afa-054a-4fd9-ac4d-174d6524be70")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 222.25 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5896646-8ca8-4e5c-8840-413026009d91")
+		(property "Reference" "D23"
+			(at 224.79 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 224.79 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39df5f64-4060-4786-8a0a-eaf66424e51d")
+		)
+		(pin "2"
+			(uuid "72c4347a-a076-4ae5-aaa7-952a4cbf9197")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 191.77 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb3a0dff-8ec6-402e-bd11-49288e5d153d")
+		(property "Reference" "D21"
+			(at 194.31 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 194.31 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a33e5e8-58f3-4fa8-9d54-188b15943ef8")
+		)
+		(pin "2"
+			(uuid "c6ca603c-e2fb-42c4-a965-bbc16bf25e8d")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 227.33 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5cee57-6a7b-4e39-9a3c-35c69ab7d705")
+		(property "Reference" "SW23"
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 227.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 227.33 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bff0dc6-3770-4528-b6d6-a86f259c0e36")
+		)
+		(pin "1"
+			(uuid "081c0879-c1fa-4c60-bb26-19176e26f634")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 196.85 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe80656a-e77d-43c6-b5a5-a500c5bf540e")
+		(property "Reference" "SW27"
+			(at 196.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 196.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX:CherryMX_1.00u"
+			(at 196.85 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "345fb0af-828f-4a81-835b-b5875638e269")
+		)
+		(pin "1"
+			(uuid "d6524c93-b504-4e9f-8fbb-ce2f63a7c3ef")
+		)
+		(instances
+			(project "Smartboard"
+				(path "/5ced50cf-3f1c-47d8-9fd6-e21d889a32f3"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
