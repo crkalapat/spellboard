@@ -21,3 +21,5 @@ _A large key cap custom keyboard, designed for typing to communicate._
 - 1x 3D Printed Enclosure Left
 - 1x 3D Printed Enclosure Right
 - 1x Backplate
+- 8x M3x8mm screws
+- 8x M3 nuts
