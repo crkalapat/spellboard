@@ -12,6 +12,10 @@ _A large key cap custom keyboard, designed for typing to communicate._
 - USB C connectivity
 - Custom large keycaps for less reliance on fine motor skills
 
+## Demo
+
+<video src="demo.mp4" controls width="640" height="360"></video>
+
 ## BOM
 
 - 30x 2-Pin key switches
