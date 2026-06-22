@@ -14,7 +14,7 @@ _A large key cap custom keyboard, designed for typing to communicate._
 
 ## Demo
 
-<video src="demo.mp4" controls width="640" height="360"></video>
+https://github.com/user-attachments/assets/92936077-01a1-442b-ba66-4622e2b436ea
 
 ## BOM
 
