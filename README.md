@@ -1,6 +1,6 @@
 # Spellboard
 
-_A large key cap custom keyboard, designed for typing to communicate._
+_A large key cap custom keyboard, designed for spelling to communicate._
 
 <img src="/assets/IMG_1373.png" width="500">
 
